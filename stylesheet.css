@@ -1,0 +1,303 @@
+body{
+    text-align: center;
+    background-color: #101a2b;
+    font-family: 'Alegreya Sans';
+    /* align-items: center; */
+}
+#parallax{
+  min-height: 450px;
+  background-image: url(https://img.freepik.com/premium-photo/bitcoin-blockchain-cryptocurrency-digital-encryption_24070-1243.jpg?size=626&ext=jpg&ga=GA1.2.1103567159.1597658053&semt=sph);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  color: #ccc;
+  font-family: 'Alegreya Sans';
+  /* line-height: 6rem; */
+  margin-top: 3rem;
+
+}
+button{
+    border-radius: 6px;
+    border: 1px solid #000000;
+    background-color: #101a2b;
+    color: #ccc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: smaller;
+    
+}
+button:hover{
+    border-radius: 6px;
+    border: 1px solid #000000;
+    background-color: #101a2b;
+    color: #ccc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: smaller;
+    box-shadow: #101a2b;
+    box-shadow:  0px 2px 4px 0px #000000
+}
+.CoinImg{
+  width: 40% !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contents{
+  padding-top: 20% !important;
+  padding: 20px;
+}
+#flexSwitchCheckDefault{
+  width: 3rem;
+  height: 2rem;
+  /* background-color: #415578; */
+}
+.dollar{
+  color:rgb(247, 247, 247);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+  color:#101a2b;;
+  font-size: 40px;
+}
+
+#chartContainer{
+  position: relative;
+  top: 50px;
+}
+marquee{
+  position: relative;
+  top: -170px;
+}
+marquee > *  {
+  font-size: 50px;
+  color: #fdfeffb6;
+}
+/* from a website - card design */
+.abs,
+h2:after,
+.cards .card figcaption,
+.cards .card:after{
+  position: absolute;
+
+}
+.rel,
+h2,
+h2 strong,
+.cards .card{
+  position: relative;
+}
+
+.df,
+.cards{
+  display: flex;
+}
+
+.vm,
+h2,
+h2 strong,
+h2 span {
+  vertical-align: middle;
+}
+
+.wrapper {
+  padding: 15px;
+  justify-content: center;
+}
+.MoreInfoDIV{
+  color: #aaa;
+  width: 175px;
+  height: 90px;
+  background-color: #0d243c;
+  box-shadow: 2px -7px 7px rgba(240, 237, 237, 0.6);
+  border-radius: 5px;
+  display: none; /*that's the secret!!! */
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+h2 {
+  padding: 10px;
+  padding-left: 25px;
+  color: #ccc;
+  margin: 0;
+}
+#MePic{
+  width: 100px;
+  border-radius: 50px;
+  filter: grayscale(50%);
+  position: relative;
+  top: -250px;
+}
+
+#envelope{
+  width: 600px;
+  height: 400px;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(auto auto auto);
+
+}
+#BlancDiv1{
+background-color:rgb(23, 26, 31) ;
+grid-column: span 4;
+}
+/* rgba(62,37,56,255) */
+#BlancDiv2{
+  background-color: rgba(42,39,48,255);
+  grid-column: span 2;
+  }
+#BlancDiv3{
+  background-color: rgb(14,21,31);
+  grid-column: span 2;
+  }
+#BlancDiv4{
+  background-color: rgba(42,39,58,255);
+  grid-column: span 4;
+  }
+#BlancDiv5{
+  background-color: rgb(5, 8, 12);
+  grid-column: span 2;
+  }
+#BlancDiv6{
+    background-color: rgb(14,21,31);
+    grid-column: span 4;
+    }
+#BlancDiv7{
+      background-color: rgb(204, 204, 209);
+      grid-column: span 6;
+      grid-row: span .5;
+      }
+#About > #BlancDiv9 {
+  display: block;
+  margin: auto;
+      color: rgb(204, 204, 209);
+      width: 600px;
+      height: 40px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      position: relative;
+      top: -200px;
+}  
+#textDiv{
+    width: 400px;
+    height: fit-content;
+    position: relative;
+    top: -22rem;
+    /* background-color: rgba(255, 127, 80, 0.103); */
+    color: #ccc;
+    margin: auto;
+  }
+  #textDiv > span {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  #textDiv > span > strong {
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+h2 strong {
+  z-index: 2;
+  background: #24282f;
+  padding: 4px 8px;
+}
+h2 span {
+  font-size: 0.7em;
+  color: #aaa;
+  margin-left: 10px;
+}
+h2:after {
+  content: '';
+  z-index: 1;
+  bottom: 50%;
+  margin-bottom: -2px;
+  height: 2px;
+  left: 0;
+  right: 0;
+  background: #373d47;
+}
+.modal-title > strong{
+  color: #000000;
+}
+.modal-title{
+  color: #373d47;
+}
+.modal-header{
+  text-align: center;
+} 
+.modal-header > h1 {
+  text-align: center;
+  display: block;
+  margin: auto;
+} 
+.cards{
+  flex-flow: column wrap; /* i have changed it from row-wrap to column-wrap*/
+  /* background-color: rgb(201, 237, 237); */
+}
+.cards .card{
+  margin: 20px;
+  width: 180px;
+  height: 280px; /*  ich hans vechlinnert. es isch 270px xi*/
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.8);
+  transform-origin: center top;
+  transform-style: preserve-3d;
+  transform: translateZ(0);
+  transition: 0.3s;
+}
+.cards .card img,
+.news .card img {
+  width: 100%;
+  min-height: 100%;
+}
+.cards .card figcaption{
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  background: none;
+  color: rgb(84, 27, 27);
+  transform: translateY(100%);
+  transition: 0.3s;
+}
+.cards .card:after{
+  content: '';
+  z-index: 10;
+  width: 200%;
+  height: 100%;
+  top: -90%;
+  left: -20px;
+  opacity: 0.1;
+  transform: rotate(45deg);
+  background: linear-gradient(to top, transparent, #fff 15%, rgba(255,255,255,0.5));
+  transition: 0.3s;
+}
+.cards .card:hover ,
+.cards .card:focus,
+.cards .card:active {
+  box-shadow: 0 8px 16px 3px rgba(0,0,0,0.6);
+  transform: translateY(-3px) scale(1.05) rotateX(15deg);
+  background-color: #0d243c; /*    אני הוספתי שורה הזאת*/
+  color: #aaa !important; /*    אני הוספתי שורה הזאת*/
+}
+.card:hover p{
+  transform: translateY(-3px) scale(1.05) rotateX(15deg);
+  color: #aaa !important; /*    אני הוספתי שורה הזאת*/
+}
+
+.cards .card:hover figcaption,
+.cards .card:focus figcaption,
+.cards .card:active figcaption{
+  transform: none;
+}
+.cards .card:hover:after,
+.cards .card:focus:after,
+.cards .card:active:after {
+  transform: rotate(25deg);
+  top: -40%;
+  opacity: 0.15;
+}
