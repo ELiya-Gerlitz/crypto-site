@@ -232,13 +232,14 @@ function triggerModal(id){
             </span>
         </div>
          
-        <img id="MePic" src="./Assets/IMG_5058.JPG"/><br></br>  
+        <img id="MePic" src="./Assets/IMG_5058.jpg"/><br></br>  
 
         <div id="BlancDiv9">
                 This site allows users to get the exchange-rate for crypto-currencies.<br> 
                 This is my second project as a Full-Stack student in John Bryce Academy.
         </div>
         `
+        // jkjkjjjioj
         $("#About").html(html)
     } AboutPage()
 })
