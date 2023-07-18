@@ -221,7 +221,6 @@ function triggerModal(id){
             <div id="BlancDiv5"></div>
             <div id="BlancDiv6"></div>
             <div id="BlancDiv7"></div>
-            
         </div>
         <div id="textDiv">
             <h3>Eliya Gerlitz</h3>
@@ -233,7 +232,7 @@ function triggerModal(id){
             </span>
         </div>
          
-        <img id="MePic" src="Assets/IMG_5058.JPG"/><br></br>
+        <img id="MePic" src="./Assets/IMG_5058.JPG"/><br></br>  
 
         <div id="BlancDiv9">
                 This site allows users to get the exchange-rate for crypto-currencies.<br> 
